@@ -25,6 +25,7 @@ public class GameMaster : MonoBehaviour
     }
     public float GetTimer()
     {
+        //round the time to 2 decimal
         return Mathf.Round(elapsedTime * 100f) / 100f;
     }
 

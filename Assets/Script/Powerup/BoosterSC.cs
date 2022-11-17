@@ -18,6 +18,7 @@ public class BoosterSC : MonoBehaviour, Ishootable
         _rend = GetComponent<Renderer>();
         _baseColor = _rend.material.GetColor("_Color");
     }
+    
     public void Shoot(GameObject instigator)
     {
         PlayerController targetPC = instigator.GetComponent<PlayerController>();

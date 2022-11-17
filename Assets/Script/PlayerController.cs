@@ -68,6 +68,11 @@ public class PlayerController : MonoBehaviour
         _controls.Move(movement + _platformMovement);
     }
 
+    public bool GetIgrounded()
+    {
+        return _iGrounded;
+    }
+
     private void TestGround()
     {
         RaycastHit hit;

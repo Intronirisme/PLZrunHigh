@@ -9,6 +9,7 @@ public class TimerSC : MonoBehaviour
 
     private void Start()
     {
+        
         GameObject[] GMs;
         GMs = GameObject.FindGameObjectsWithTag("GameMaster");
         Level = GMs[0].GetComponent<GameMaster>();
